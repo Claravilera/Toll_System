@@ -32,22 +32,19 @@ public class TollStation {
     }
 
     public String getName() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getName'");
+        return name;
     }
 
     public String getCity() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getCity'");
+        return city;
     }
 
     public List<String> getVehicles() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getVehicles'");
+        return vehicles;
     }
 
     public int getTotalCollected() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getTotalCollected'");
+        return totalCollected;
     }
+    
 }
